@@ -1,6 +1,8 @@
 # wrower
 
-A Clojure library designed to ... well, that part is up to you.
+A Clojure interface for the Water Rower's S4 rowing computer
+
+Made with more than a little help from [gar3thjon3s'](https://github.com/gar3thjon3s) [rower](https://github.com/gar3thjon3s/rower) project
 
 ## Usage
 
@@ -10,5 +12,4 @@ FIXME
 
 Copyright © 2015 FIXME
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Distributed under the MIT License
