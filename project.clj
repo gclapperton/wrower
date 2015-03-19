@@ -17,7 +17,7 @@
                   ;["vcs" "tag" "test"]
                   ["git" "tag" :name]
                   ["deploy"]
-                  ["change" "version" "leiningen.release/bump-version"]
+                  ["change" "version" "leiningen.release/de-bump-version"]
                   ;["vcs" "commit"]
                   ["git" "commit" :name]
                   ["vcs" "push"]])
