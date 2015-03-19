@@ -11,7 +11,7 @@
 
   :release-tasks [["vcs" "assert-committed"]
                   ["change" "version"
-                   "leiningen.release/bump-version" "release"]
+                   "leiningen.release/de-bump-version" "release"]
                   ;["vcs" "commit"]
                   ["git" "commit" :name]
                   ;["vcs" "tag" "test"]
