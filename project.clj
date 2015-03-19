@@ -13,7 +13,7 @@
                    "leiningen.release/bump-version" "release"]
                   ["vcs" "commit"]
                   ;["vcs" "tag" "test"]
-                  ["git-tag" "test"]
+                  ["git-tag" "test_"]
                   ["deploy"]
                   ["change" "version" "leiningen.release/bump-version"]
                   ["vcs" "commit"]
