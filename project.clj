@@ -7,16 +7,19 @@
                  [org.clojure/core.async "0.1.346.0-17112a-alpha"]
                  [clj-serial "2.0.2"]]
 
-  :plugins [[de.lein "0.1.0-SNAPSHOT"]]
+  :profiles {
+    :user {
+      :plugins [[de.lein "0.1.0-SNAPSHOT"]]}}
+
   :release-tasks [["vcs" "assert-committed"]
                   ["change" "version"
                    "leiningen.release/bump-version" "release"]
                   ;["vcs" "commit"]
-                  ["git" "commit" "test"]
+                  ["git" "commit" :name]
                   ;["vcs" "tag" "test"]
-                  ["git" "tag" "test"]
+                  ["git" "tag" :name]
                   ["deploy"]
                   ["change" "version" "leiningen.release/bump-version"]
                   ;["vcs" "commit"]
-                  ["git" "commit" "test"]
+                  ["git" "commit" :name]
                   ["vcs" "push"]])
