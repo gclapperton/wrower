@@ -1,4 +1,4 @@
-(defproject wrower "0.1.8"
+(defproject wrower "0.1.9-SNAPSHOT"
   :description "FIXME: write description"
   :url "http://example.com/FIXME"
   :license {:name "Eclipse Public License"
